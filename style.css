@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   background-color : black;
+}
+
+#title {
+    text-align: center;
+    font-size : 70px;
+    font-family: 'Quicksand', sans-serif;
+    margin : 10px 0;
+    color : white; 
+    animation : t 2s ease infinite; 
+}
+
+@keyframes title {
+    0% {
+        color : orangered;
+    } 
+    25% {
+        color: greenyellow;
+    } 
+    50% {
+        color: yellow;
+    } 
+    75% {
+        color: blue;
+    } 
+    100% {
+        color : green;
+    }
+}
+
+#count-down {
+   font-size : 300px;
+   text-align: center;
+   margin-top : 30px;
+   font-family : monospace;
+   color : white;
+   animation : countdown 2s infinite;
+}
+
+@keyframes countdown {
+    0% {
+        color : orangered;
+    } 
+    25% {
+        color: greenyellow;
+    } 
+    50% {
+        color: yellow;
+    } 
+    75% {
+        color: blue;
+    } 
+    100% {
+        color : green;
+    }
+}
+
+#btn {
+    margin-left : 520px;
+    margin-top : 10px;
+    font-size : 30px;
+    background-color: orange;
+    color : white;
+    padding : 40px;
+    border-radius: 30px;
+    font-weight: bold;
+   font-family: 'Quicksand', sans-serif;
+}
+
+@media all and (max-width : 600px) {
+   #btn {
+      margin-left : 140px;
+     margin-top : 20px
+   }
+ #count-down {
+     margin-top : 20px;
+     font-size :  200px;
+}
+}
+
+
+
+
